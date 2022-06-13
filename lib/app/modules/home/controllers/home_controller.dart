@@ -2,22 +2,11 @@ import 'package:get/get.dart';
 
 class HomeController extends GetxController {
   //TODO: Implement HomeController
+  var hiddenCityFrom = true.obs;
+  var provinceIdFrom = 0.obs;
+  var cityIdFrom = 0.obs;
 
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
-  }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
+  var hiddenCityTo = true.obs;
+  var provinceIdTo = 0.obs;
+  var cityIdTo = 0.obs;
 }
